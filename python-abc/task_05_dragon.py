@@ -6,7 +6,7 @@ class SwimMixin:
 class FlyMixin:
     """Mixin that adds flying ability."""
     def fly(self):
-        print("The creature flies!"
+        print("The creature flies!")
 class Dragon(SwimMixin, FlyMixin):
     """Dragon class."""
     def roar(self):
